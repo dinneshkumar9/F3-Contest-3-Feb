@@ -53,6 +53,6 @@ form.addEventListener("submit", (event) => {
 // handle logout button click
 const logoutButton = document.getElementById("logout");
 logoutButton.addEventListener("click", () => {
-  localStorage.removeItem("currentUser");
+  //localStorage.removeItem("currentUser");
   window.location.href = "login.html";
 });
