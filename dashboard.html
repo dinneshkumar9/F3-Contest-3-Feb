@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Portal | Dashboard</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+    <!-- Navbar for signUp and login -->
+    <nav>
+        <h1 id="navHead">Teacher Portal</h1>
+        <ul>
+            <li><a id="signUp" href="./index.html">Signup</a></li>
+            <li><a id="logIn" href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+      <!-- Heading -->
+    <h1 id="heading">Teachers Dashboard</h1>
+    <h1 id="welcomeName"></h1>
+    <h1 id="welcomeEmail"></h1>
+<!-- change password form -->
+    <h1 id="heading">Change Password</h1>
+
+    <form id="form">
+        <input type="password" placeholder="Old Password"><br><br>
+        <input type="password" placeholder="New Password"><br><br>
+        <input type="password" placeholder="Confirm New Password"><br><br>
+        <button id="change" type="submit">Change</button><br><br>
+        <button id="logout" type="button">Logout</button>
+    </form>
+    <script src="./JS_script/dashboard.js"></script>
+</body>
+</html>
